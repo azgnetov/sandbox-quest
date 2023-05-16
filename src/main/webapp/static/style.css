@@ -1,0 +1,86 @@
+/* styles.css */
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Heading styles */
+h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Paragraph styles */
+p {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+/* Button container styles */
+.button-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+/* Button styles */
+.button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+.restart-button {
+    background-color: red;
+    font-size: 16px;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.restart-button:hover {
+    background-color: darkred;
+}
+
+/* Additional styles specific to the quest options */
+#story-container {
+    background-color: lightgray;
+    padding: 5px;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+
+/* Hero's Health styles */
+.hero-health {
+    font-weight: bold;
+    background-color: lightgreen;
+    padding: 5px 10px;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.hero-health.low-health {
+    font-weight: bold;
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    display: inline-block;
+}
